@@ -1,0 +1,113 @@
+
+
+@import url('https://fonts.googleapis.com/css2? aile= Roboto:ital,wght@0,100;1,100;1,400 & display=swap');
+
+
+
+
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /
+textarea {overflow:auto;}
+
+/***** RESET *****/
+
+
+
+
+.container{background: url("c2ec9a6e6fae87d00d2ce45c43a8d70b.jpg")  ;
+	height: 100vh;
+	width: 100%;}
+
+
+.container .navbar{width: 100%;
+	height: 105px;
+	background-color: #988C8C;}
+
+
+.navbar .LOGO{display: inline-block;
+	margin-left: 50px;
+	margin-top: 30px}
+
+
+.navbar .LOGO a{text-decoration: none;
+font-size: 30px;
+font-family: sans-serif;
+color: white;}
+
+.navbar ul{
+	float: right;
+	margin-right: 10px;}
+
+.navbar.LOGO{display: inline-block;
+	margin-left: 50px;
+	margin-top: 20px;}
+
+.navbar ul li{list-style: none;
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 80px;}
+
+.navbar ul a li{color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 6px 13px;
+	font-family: Arial;
+transition: .5s;}
+
+.navbar ul a li.active,
+.navbar ul a li:hover{background:#000000;
+	border-radius:10px;}
+.container .center{position: absolute;
+top:50%;
+left:50%;
+	transform: translate(-50%,-50%);
+	font-family: "sans serif";
+	color: aliceblue;
+	text-align: center;
+	user-select: none;}
+.center h1{color:#FFFFFF;
+	font-size: 70px;
+	font-weight: bold;
+	width: 900px;
+	text-align: center;}
+.center h2{ color:#FFFFFF;
+font-size:70px;
+font font-weight: bold;
+width;900px;
+text-align: center;
+	margin-top: 10px;}
+.center .buttons{margin: 35px 280px;
+}
+.buttons button{height: 50px;
+width: 150px;
+font-size: 18px;
+	color:#000000;
+	background-color: rgba(147,96,88);
+	border-radius: 20px;
+	cursor: pointer;
+	outline: none;
+	font-weight: bold;}
+
+.buttons button:hover{background: #FFFDFD;
+	transition: .5s;
+}
+
+
+
+
+
